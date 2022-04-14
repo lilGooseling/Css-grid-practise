@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 60px 150px 60px / 200px 200px 300px;
+    gap: 20px;
+}
+
+.grid-elem {
+    /*height: 50px;*/
+    background-color: plum;
+    color: purple;
+    line-height: 50px;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
