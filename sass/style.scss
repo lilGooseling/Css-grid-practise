@@ -10,9 +10,10 @@
   margin: 82px auto 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 240px);
-  grid-template-rows: repeat(2, 260px);
+  grid-template-rows: repeat(2, minmax(260px, auto));
   grid-auto-rows: 260px;
   gap: 60px;
+  grid-auto-flow: row;
 }
 
 .news-item {
