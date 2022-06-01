@@ -65,7 +65,7 @@ h1 {
   grid-template-rows:repeat(3,minmax(100px, auto));
   grid-auto-rows: minmax(100px, auto);
   gap: 10px;
-  /*grid-template-areas: "header header header" "blog blog message" "footer footer footer";*/
+  grid-template-areas: "header header header" "blog blog message" "footer footer footer";
 }
 
 
@@ -130,6 +130,29 @@ h1 {
   gap: 10px;
 }
 
+.flex-container {
+  margin-top:100px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-elem {
+  background-color: lightskyblue;
+  color: midnightblue;
+  width: 300px;
+  height: 200px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid white;
+  border-radius: 4px;
+  flex: 1 1 0;
+}
+
+.flex-container> *:not(:first-child) {
+  margin-left: 20px;
+}
 
 /*#first {
   align-self: center;
