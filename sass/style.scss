@@ -154,6 +154,30 @@ h1 {
   margin-left: 20px;
 }
 
+.flex-container2 {
+  margin-top:100px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumspringgreen;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.flex-elem2 {
+  margin: auto;
+  background-color: burlywood;
+  color: saddlebrown;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+
 /*#first {
   align-self: center;
   justify-self: center;
